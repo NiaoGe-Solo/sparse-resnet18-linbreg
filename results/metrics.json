@@ -1,0 +1,42 @@
+{
+  "config": {
+    "seed": 2,
+    "epochs": 150,
+    "batch_size": 128,
+    "test_batch_size": 512,
+    "learning_rate": 0.1,
+    "min_learning_rate": 1e-05,
+    "lamda": 0.1,
+    "delta": 1.0,
+    "sparse_init": 0.01,
+    "validation_fraction": 0.05,
+    "target_sparsity": 3.4,
+    "scheduler_patience": 5,
+    "scheduler_threshold": 1.0,
+    "scheduler_factor": 1.0,
+    "num_workers": 4,
+    "amp": true
+  },
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "best_validation_accuracy": 89.84,
+  "trained_test_accuracy": 88.72,
+  "trained_test_loss": 0.5667661210536957,
+  "trained_sparsity": 5.259302107278596,
+  "threshold": 0.01967216283082962,
+  "thresholded_test_accuracy": 87.68,
+  "thresholded_test_loss": 0.5700985733032227,
+  "thresholded_sparsity": 3.400000286626577,
+  "paper_linbreg": {
+    "test_accuracy": 90.9,
+    "sparsity": 5.5
+  },
+  "paper_linbreg_thresholded": {
+    "test_accuracy": 90.2,
+    "sparsity": 3.4
+  },
+  "paper_dense_adam": {
+    "test_accuracy": 93.6,
+    "sparsity": 100.0
+  }
+}
