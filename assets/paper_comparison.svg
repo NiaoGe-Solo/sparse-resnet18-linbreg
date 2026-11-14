@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 430" role="img" aria-labelledby="title desc">
+<title id="title">Paper comparison</title><desc id="desc">CIFAR-10 accuracy and density compared with the paper.</desc>
+<rect width="1000" height="430" fill="#111722"/>
+<g font-family="Arial, sans-serif" fill="#d9e1ec" font-size="14">
+<text x="80" y="34" font-size="20" font-weight="bold">CIFAR-10 test accuracy</text>
+<text x="560" y="34" font-size="20" font-weight="bold">Network density</text>
+<line x1="60" y1="350" x2="490" y2="350" stroke="#64748b"/><line x1="540" y1="350" x2="980" y2="350" stroke="#64748b"/>
+<text x="20" y="210" transform="rotate(-90 20 210)">Test accuracy (%)</text>
+<text x="500" y="210" transform="rotate(-90 500 210)">Non-zero weights (%)</text>
+<rect x="80" y="101.2" width="120" height="248.8" fill="#8c99a8"/><rect x="292" y="107.2" width="120" height="242.8" fill="#d06045"/><rect x="504" y="103.1" width="120" height="246.9" fill="#8c99a8"/><rect x="716" y="110.0" width="120" height="240.0" fill="#d06045"/><rect x="80" y="130.0" width="120" height="220.0" fill="#8c99a8"/><rect x="292" y="139.6" width="120" height="210.4" fill="#d06045"/><rect x="504" y="214.0" width="120" height="136.0" fill="#8c99a8"/><rect x="716" y="214.0" width="120" height="136.0" fill="#d06045"/><text x="140" y="93.2" text-anchor="middle">90.9</text><text x="140" y="122.0" text-anchor="middle">5.5</text><text x="88" y="374" transform="rotate(18 88 374)">Paper LinBreg</text><text x="352" y="99.2" text-anchor="middle">88.7</text><text x="352" y="131.6" text-anchor="middle">5.3</text><text x="300" y="374" transform="rotate(18 300 374)">This run</text><text x="564" y="95.1" text-anchor="middle">90.2</text><text x="564" y="206.0" text-anchor="middle">3.4</text><text x="512" y="374" transform="rotate(18 512 374)">Paper + threshold</text><text x="776" y="102.0" text-anchor="middle">87.7</text><text x="776" y="206.0" text-anchor="middle">3.4</text><text x="724" y="374" transform="rotate(18 724 374)">This run + threshold</text>
+</g></svg>
